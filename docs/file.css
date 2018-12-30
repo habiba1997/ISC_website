@@ -1,0 +1,53 @@
+  
+/* On smaller screens */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+    .mainNavbar { margin-bottom: 10%;}
+    /* .logo {left: 24%;position: absolute;}*/
+}
+ /* On Larger screens */
+@media only screen and (min-width: 1000px){
+.branchNavbar li {position: relative; left: 26%}
+              
+}          
+    
+/* -----------------------------------------------------------------------------------------------------*/
+            /* to center my carousal images*/     
+            .carousel-inner img {margin: auto;}         
+            
+            body{
+
+    font-family: 'Open Sans', sans-serif;
+
+;background-color:#f2f2f2;color: #5c8aad ;position: relative;}
+            
+            /*slider images css*/
+            .sliderImages{ height: 500px; ;background-size: cover}
+            /*my to be announced space*/
+            
+            .tobeAnnounced { text-align: center; margin-left: auto; margin-right: auto; padding: 20% 10% }
+            
+            
+            /* Organizer div*/
+             .organizers{margin-top: 3%}
+             .organizers h1 {text-align: center ; margin-bottom: 3%}
+             .organizers img{margin: auto;display: block; border-radius: 100% ; width: 55% ; height: 75%}
+             .organizers h4{margin: auto;display: block; text-align: center; ;border: 2px solid #5c8aad;width: 65%; padding: 10px 0px; margin: 3% 18% ;}  
+
+            /* main Navbar Css
+            to center my logo in main navbar*/
+             .brand {position: absolute;left: 50%;margin-left: -50px !important;  /* 50% of your logo width */display: block;}
+
+            /* Image under branh Navbar and its text: text absolute for body*/
+            .centeredDiv {color: #d0e1f1; position: absolute;left: 50%;text-align: center; transform: translate(-50%, -178%);font-style: bold }
+                     
+            
+            .footNote{background-color:#5c8aad; color: #f2f2f2; }
+            .footNote ul {list-style-type: none;}
+            .footNote h3{font-weight: bold;text-align: center ; margin-bottom: 5% }
+            .footNote p{text-align: center}
+            .footNote li{padding-left: 2%}
+            .footNote {padding: 5%; }
+   
+
+
