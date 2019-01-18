@@ -3,45 +3,114 @@
 <head>
      
             <link rel="stylesheet" href="bootstrap.min.css">     
- <style>.navbar-collapse {
-    float: left;
-    width: 100%;
-    clear: both;
+ <style>
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-@media (min-width: 768px) {
-    .navbar-right {
-        margin-top: -50px;
-    }
-}</style>
+    
+    
+    </style>
 </head>
 <body>
-<div class="container-fluid">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">Logo/Brand</a>
+<nav class="mainNavbar navbar sticky navbar-expand-lg navbar-light" style="background-color: rgba(227,242,253,0.5) ">
+  <a class="brand" href="#"> <img src="Logo_TV_2015.svg.png"  width="40" alt="logo"></a>
+    <span style="height: 2%"></span>
+  <div class="collapse navbar-collapse d-flex justify-content-end" >
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+    </form>
   </div>
-  <div id="navbar" class="navbar-collapse collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="#">LinkA</a></li>
-      <li><a href="#">LinkB</a></li>
-      <li><a href="#">LinkC</a></li>
-      <li><a href="#">LinkD</a></li>
-      <li><a href="#">LinkE</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Link1</a></li>
-      <li><a href="#">Link2</a></li>
-      <li><a href="#">Link3</a></li>
-    </ul>
-  </div><!--/.nav-collapse -->
-</div>
+</nav>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+       <div class="footNote container-fluid">
+          <div class="row">
+                <div class="col-sm-4" id="About">
+                      <h3>About</h3>
+                      <p>"ISC 2019" - International Students Conference - is a conference pioneered by the IEEE EMB Society and provide the opportunity to know more about biomedical ngineering sub fields as Imaging, imaging processing, signal processing, brain research, BCI and more interesting tracks to be discussed from the best in the field.<br>
+                    <center>DON’T miss the chance to attend!!</center></p>
+              </div> 
+              <div class="col-sm-4" id="contact">
+                        <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"> Egypt </i>  
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"> +221151280909 </i>
+                        </li>
+                        <li>
+                           <b> <i class="far fa-envelope fa-1x"> Email: habibahmedmagdy@gmail.com </i></b>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Our Social Media</h3>
+                    <i class="fab fa-facebook-f"></i>    <i class="fab fa-twitter"></i>
+                </div>
+           </div>
+        </div>
+      <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script>// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} </script>    
 </body>
+    
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

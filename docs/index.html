@@ -16,18 +16,23 @@
     <body>
         
 <!--- Main navbar html using bootstrap=-->        
-<nav class="mainNavbar navbar sticky-top navbar-expand-lg navbar-light" style="background-color: rgba(227,242,253,0.5) ">
-  <a class="brand" href="#"> <img src="Logo_TV_2015.svg.png"  width="40" alt="logo"></a>
-    <span style="height: 2%"></span>
-  <div class="collapse navbar-collapse d-flex justify-content-end" >
+    <nav class="mainNavbar navbar navbar-expand-lg navbar-light sticky-top" style="background-color: rgba(227,242,253,0.5) ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <a class="brand" href="#"> <img src="Logo_TV_2015.svg.png"  width="40" alt="logo"></a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent"  >
+    <ul class="mr-auto">
+    </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>
+ 
       
-<!--- Home navbar html using bootstrap=-->
+<!-- d-flex justify-content-end -- Home navbar html using bootstrap=-->
    
 
 <nav class="branchNavbar navbar navbar-expand-lg navbar-dark navbar-dark" style="background-color:  rgba(52,58,64,0.8) ;">
@@ -79,13 +84,23 @@
   </div>
 </nav>
 <!---- image--->
-    
-   <div style="margin-bottom: 2%">
+<div class="container">
+    <div class="row">
+      
+        <div class="col">
+          
          <img src="finalbiomedical_1250x450px.jpg" width="100%" height="100%"> 
-        <div class="centeredDiv col-sm-12">
-            <h1><b>System And Biomedical Engineering</b></h1>    
-        </div>
-        </div>
+            <div class="carousel-caption">
+              <h1>System And Biomedical Engineering</h1>
+            </div>
+          
+         </div>      
+      
+    </div>
+  
+  
+</div>
+  
 
 
  <!-- My to be announced    --------------------------------------------------------------->
@@ -105,7 +120,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-          <img class="d-block mr-auto" width="90%" height="100%" src="2015.jpg" alt="2015">
+          <img class="d-block mr-auto" width="90%" height="100%" src="2015.png" alt="2015">
           <div class="carousel-caption d-none d-md-block">
             <h2> <b> ISC 2015 </b></h2>
           </div>
@@ -133,50 +148,61 @@
   </a>
 </div>      
         
-       <div class="organizers" >
+ <div class="organizers" >
             <h1 id="AdvisoryCommittee"><b> Advisory Board </b></h1>
-
+        <div class="container-fluid">
             <div class="row" >
-                <div class="col">
+                <div class="col-sm-6">
                      <img src="asem.jpeg" alt="Asem"> 
                      <h4 ><b>Asem Abdelaziz</b></h4>
                 </div>
-                <div class="col">
+                <div class="col-sm-6">
                      <img src="ayman.png" alt="Ayman"> 
                      <h4><b>Ayman Anwar</b></h4>
                 </div>
             </div>
         </div>
+ </div>
         
      
   
-       <div class="footNote container-fluid">
-          <div class="row">
-                <div class="col-sm-4" id="About">
-                      <h3>About</h3>
-                      <p>"ISC 2019" - International Students Conference - is a conference pioneered by the IEEE EMB Society and provide the opportunity to know more about biomedical ngineering sub fields as Imaging, imaging processing, signal processing, brain research, BCI and more interesting tracks to be discussed from the best in the field.<br>
-                    <center>DON’T miss the chance to attend!!</center></p>
-              </div> 
-              <div class="col-sm-4" id="contact">
-                        <h3>Contact</h3>
-                    <ul>
-                        <li>
-                            <i class="fas fa-map-marker-alt"> Egypt </i>  
-                        </li>
-                        <li>
-                            <i class="fa fa-phone"> +221151280909 </i>
-                        </li>
-                        <li>
-                           <b> <i class="far fa-envelope fa-1x"> Email: habibahmedmagdy@gmail.com </i></b>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-sm-4">
-                    <h3>Our Social Media</h3>
-                    <i class="fab fa-facebook-f"></i>    <i class="fab fa-twitter"></i>
-                </div>
-           </div>
-        </div>
+<div class="footNote container-fluid">
+    <div class="card-group">
+          <div class="card" id="About">
+            <div class="card-body">
+              <h5 class="card-title">About</h5>
+              <p class="card-text">"ISC 2019" - International Students Conference - is a conference pioneered by the IEEE EMB Society and provide the opportunity to know more about biomedical ngineering sub fields as Imaging, imaging processing, signal processing, brain research, BCI and more interesting tracks to be discussed from the best in the field.<br>
+              <center>DON’T miss the chance to attend!!</center>
+              </p>
+             <!--- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+            </div>
+          </div>
+          <div class="card" id="contact">
+              <div class="card-body">
+              <h5 class="card-title">Contact</h5>
+              <ul class="card-text">
+                     <li>
+                        <i class="fas fa-map-marker-alt"> Egypt </i>  
+                     </li>
+                     <li>
+                        <i class="fa fa-phone"> +221151280909 </i>
+                     </li>
+                     <li>
+                      <b> <i class="far fa-envelope fa-1x"> Email: habibahmedmagdy@gmail.com </i></b>
+                    </li>
+                 </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Our Social Media Accounts</h5>
+              <p class="card-text">
+                Facebook <i class="fab fa-facebook-f"></i> <br>
+                Twitter  <i class="fab fa-twitter"></i></p>
+            </div>
+          </div>
+    </div>
+</div>
         
         
         

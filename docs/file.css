@@ -29,7 +29,6 @@
             
             
             /* Organizer div*/
-             .organizers{margin-top: 3%}
              .organizers h1 {text-align: center ; margin-bottom: 3%}
              .organizers img{margin: auto;display: block; border-radius: 100% ; width: 55% ; height: 75%}
              .organizers h4{margin: auto;display: block; text-align: center; ;border: 2px solid #5c8aad;width: 65%; padding: 10px 0px; margin: 3% 18% ;}  
@@ -39,15 +38,13 @@
              .brand {position: absolute;left: 50%;margin-left: -50px !important;  /* 50% of your logo width */display: block;}
 
             /* Image under branh Navbar and its text: text absolute for body*/
-            .centeredDiv {color: #d0e1f1; position: absolute;left: 50%;text-align: center; transform: translate(-50%, -178%);font-style: bold }
+    /*        .centeredDiv {color: #d0e1f1; position: absolute;left: 50%;text-align: center; transform: translate(-50%, -178%)}*/
                      
             
-            .footNote{background-color:#5c8aad; color: #f2f2f2; }
+            .footNote{background-color:#5c8aad; padding: 5%;}
             .footNote ul {list-style-type: none;}
-            .footNote h3{font-weight: bold;text-align: center ; margin-bottom: 5% }
             .footNote p{text-align: center}
             .footNote li{padding-left: 2%}
-            .footNote {padding: 5%; }
    
 
 
