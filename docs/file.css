@@ -7,7 +7,7 @@
 }
  /* On Larger screens */
 @media only screen and (min-width: 1000px){
-.branchNavbar li {position: relative; left: 26%}
+.branchNavbar li {position: relative; left: 40%}
               
 }          
     
@@ -15,11 +15,9 @@
             /* to center my carousal images*/     
             .carousel-inner img {margin: auto;}         
             
-            body{
+            body{ 
 
-    font-family: 'Open Sans', sans-serif;
-
-;background-color:#f2f2f2;color: #5c8aad ;position: relative;}
+    font-family: 'Sarabun', sans-serif;background-color:#f2f2f2;color: #5c8aad ;position: relative;}
             
             /*slider images css*/
             .sliderImages{ height: 500px; ;background-size: cover}
@@ -41,10 +39,10 @@
     /*        .centeredDiv {color: #d0e1f1; position: absolute;left: 50%;text-align: center; transform: translate(-50%, -178%)}*/
                      
             
-            .footNote{background-color:#5c8aad; padding: 5%;}
+            .footNote{background-color:#5c8aad; text-align: center;padding: 3%;}
             .footNote ul {list-style-type: none;}
-            .footNote p{text-align: center}
             .footNote li{padding-left: 2%}
+.footNote h4{font-weight: bold; margin-bottom: 4%}
    
 
 
