@@ -3,12 +3,13 @@
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
     .mainNavbar { margin-bottom: 10%;}
+    
     /* .logo {left: 24%;position: absolute;}*/
 }
  /* On Larger screens */
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 900px){
 .branchNavbar li {position: relative; left: 40%}
-              
+ 
 }          
     
 /* -----------------------------------------------------------------------------------------------------*/
@@ -25,6 +26,8 @@
             
             .tobeAnnounced { text-align: center; margin-left: auto; margin-right: auto; padding: 20% 10% }
             
+
+            .mainNavbar li {list-style-type: none}
             
             /* Organizer div*/
              .organizers h1 {text-align: center ; margin-bottom: 3%}
@@ -33,16 +36,23 @@
 
             /* main Navbar Css
             to center my logo in main navbar*/
-             .brand {position: absolute;left: 50%;margin-left: -50px !important;  /* 50% of your logo width */display: block;}
+             .brandd {position: absolute;left: 50%; top: 15%;margin-left: -50px !important;  /* 50% of your logo width */display: block;}
 
-            /* Image under branh Navbar and its text: text absolute for body*/
-    /*        .centeredDiv {color: #d0e1f1; position: absolute;left: 50%;text-align: center; transform: translate(-50%, -178%)}*/
-                     
+        /* Advisory board*/
+            .TA {margin-bottom: 6%; margin-top: 2%}
             
+                     
+    /* text on Image */
+    @media only screen and (max-width: 1000px) {
+  .sbme h3 {font-size: 20px}
+    /* .logo {left: 24%;position: absolute;}*/
+         /*footnote mail
+        .fa-envelope b {{font-size: 6px}}*/
+}
+
+
             .footNote{background-color:#5c8aad; text-align: center;padding: 3%;}
-            .footNote ul {list-style-type: none;}
-            .footNote li{padding-left: 2%}
+            .footNote ul{list-style-type: none;}
+            .footNote li{padding-left: 2%;text-align: left}
 .footNote h4{font-weight: bold; margin-bottom: 4%}
-   
-
-
+  
