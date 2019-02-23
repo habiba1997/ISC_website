@@ -18,13 +18,13 @@
             
             body{ 
 
-    font-family: 'Sarabun', sans-serif;background-color:#f2f2f2;color: #5c8aad ;position: relative;}
+    font-family: 'Sarabun', sans-serif;background-color:#ffffff;color: #2e6d8e ;position: relative;}
             
             /*slider images css*/
             .sliderImages{ height: 500px; ;background-size: cover}
             /*my to be announced space*/
             
-            .tobeAnnounced { text-align: center; margin-left: auto; margin-right: auto; padding: 20% 10% }
+            .tobeAnnounced { text-align: center; margin-left: auto; margin-right: auto; padding: 31% 10% }
             
 
             .mainNavbar li {list-style-type: none}
